@@ -71,6 +71,9 @@ return(
 
         			ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
         			  account = accounts[0] || 'Not able to get accounts';
+
+					  if(!accounts){ return }
+
         			  console.log(account);
         			  button.textContent = account;
 					
