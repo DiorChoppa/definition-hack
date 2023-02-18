@@ -6,7 +6,7 @@
         "build": "react-scripts build",
         "predeploy": "npm run build",
         "deploy": "vk-miniapps-deploy",
-		"tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=0.0.0.0 --port=10888"
+        "tunnel": "vk-tunnel --insecure=1 --http-protocol=https --ws-protocol=wss --host=0.0.0.0 --port=10888"
     },
     "engines": {
         "node": ">=12.0.0"
@@ -14,11 +14,11 @@
     "keywords": [],
     "license": "MIT",
     "dependencies": {
-        "@vkontakte/icons": "2.7.0",
+        "@vkontakte/icons": "^2.7.0",
         "@vkontakte/vk-bridge": "^2.7.2",
         "@vkontakte/vk-miniapps-deploy": "0.0.25",
         "@vkontakte/vk-tunnel": "^0.1.3",
-        "@vkontakte/vkui": "5.1.0",
+        "@vkontakte/vkui": "^5.1.0",
         "babel-eslint": "^10.1.0",
         "eruda": "^2.4.1",
         "eruda-code": "^2.0.0",

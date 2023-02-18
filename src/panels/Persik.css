@@ -4,3 +4,23 @@
   max-width: 240px;
   margin: 20px auto;
 }
+
+.Group{
+background-image: url('../img/w.png');
+background-size: contain;
+background-repeat: no-repeat;
+height: 100%;
+
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.but{
+  
+  margin-bottom: 5px;
+  }
+.file{
+  
+  margin-right: 5px;
+  }
+  
